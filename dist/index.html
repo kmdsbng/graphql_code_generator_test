@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+</head>
+<body>
+<div id="root"></div>
+
+<input type="hidden"
+       id="formData"
+       value='
+       {"editor":{"editorsKengen":"1_kokusai_koryuka","belongingKyotuJimubuID":null},"kenkyusyaID":13,"mibun":"koyo_kenkyusya","bukyokuID":3,"nameAlphabet":"Tanaka Hajime","nameKana":"タナカ ハジメ","nameKanji":"田中 一","birthday":"2000-03-03","seibetu":"dansei","kokusekiID":4,"email":"test@example.com","syokuinNo":"123456","kenkyusyaKubun":"jikankoyo","syokumei":"syusi","syokumeiOther":"","bukyokuOptions":[],"countryOptions":[],"syokuiOptions":[{"value":"daigaku_yakuin","name":"大学等の部局長・役員"},{"value":"kyoju","name":"教授"},{"value":"junkyoju","name":"准教授"},{"value":"kosi","name":"講師"},{"value":"jokyo","name":"助教・助手"},{"value":"posdoc","name":"ポスドク"},{"value":"kenkyuin_yakusyoku","name":"研究員(役職付)"},{"value":"kenkyuin","name":"研究員"},{"value":"hakase","name":"博士課程学生"},{"value":"syusi","name":"修士課程学生"},{"value":"senmonsyoku_yakusyoku","name":"専門職・技術職等(役職付)"},{"value":"senmonsyoku","name":"専門職・技術職等"},{"value":"minkan","name":"民間"},{"value":"humei","name":"不明"},{"value":"other","name":"その他"}],"kenkyusyaKubunOptions":[{"value":"jokin_ninkinasi","name":"常勤（任期なし）"},{"value":"jokin_ninkituki","name":"常勤（任期付）"},{"value":"jikankoyo","name":"時間雇用"}]}
+       ' />
+
+<input type="hidden"
+       id="cancelUrl"
+       value='/canceled.html'
+       />
+
+<script defer src="form1.js"></script>
+</body>
+</html>
